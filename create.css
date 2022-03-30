@@ -1,0 +1,30 @@
+*{
+  background-color: rgb(245, 235, 245);
+}
+div {
+    text-align: center;
+    margin-left: 1cm;
+    color: rgb(15, 13, 13);
+    font-size: larger;
+    font-style: italic;
+    float: left;
+}
+p{
+   font-size: larger;
+   text-align: center;
+}
+
+button{
+    background-color: rgb(181, 181, 247);
+}
+nav{
+    text-align: right;
+    margin-right: 2cm;
+    margin-left: 13cm;
+    font-size: larger;
+    margin-top: 1cm;
+}
+a{
+    padding-right: 1cm;
+    padding-top: 5cm;
+}

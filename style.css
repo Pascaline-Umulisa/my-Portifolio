@@ -1,0 +1,50 @@
+
+div {
+    text-align: center;
+    color: rgb(15, 13, 13);
+    font-style: oblique;
+    float: right;
+    font-size: 22px;
+    margin-top: 1cm; 
+    margin-right: 5cm;
+}
+em{
+    font-size: xx-large;
+}  
+body{
+    background-image: url(images/HOME.jpg);
+    background-size: 10cm;
+    background-repeat: no-repeat;
+    background-color: rgb(238, 227, 237);
+}
+h3{
+    color: rgb(11, 59, 59);
+    text-align: center;
+    margin-left: 4cm;
+    font-size: xx-large;
+}
+li{  
+    text-align: left;
+    margin-left: 5cm;
+}   
+
+nav{
+    text-align: right;
+    margin-right: 2cm;
+    margin-left: 13cm;
+    font-size: larger;
+    margin-top: 1cm;
+}
+a{
+    padding-right: 1cm;
+    padding-top: 5cm;
+}
+a button{
+    font-size: x-large;
+    border-radius: 20%;
+}
+footer{
+    text-align: center;
+    margin-top: 13cm;
+}
+
