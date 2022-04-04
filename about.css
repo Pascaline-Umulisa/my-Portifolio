@@ -5,7 +5,31 @@ nav{
     font-size: larger;
     margin-top: 1cm;
 }
-a{
+body{
+    background-color: rgb(238, 227, 237);
+}
+nav a{
     padding-right: 1cm;
     padding-top: 5cm;
+    text-decoration: none;
+}
+table,th,td{
+    border: solid 5px;
+    border-collapse: collapse;
+    border-color: rgb(219, 175, 204);
+    font-size: 20px;
+}
+td a{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(95, 6, 76);
+}
+table{
+    padding-top: 1cm;
+    margin: 1cm 0cm 0cm 1cm;
+    
+}
+footer{
+    padding-left: 9cm;
+    margin-top: 1cm;
 }

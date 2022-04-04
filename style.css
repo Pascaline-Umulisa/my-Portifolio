@@ -38,6 +38,7 @@ nav{
 a{
     padding-right: 1cm;
     padding-top: 5cm;
+    text-decoration: none;
 }
 a button{
     font-size: x-large;
