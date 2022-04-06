@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(241, 231, 241);
+}
 nav{
     text-align: right;
     margin-right: 2cm;
@@ -9,4 +12,52 @@ a{
     padding-right: 1cm;
     padding-top: 5cm;
     text-decoration: none;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(51, 4, 51);
+
+}
+.container{
+    text-align: center;
+    background-color: white;
+}
+button{
+    border: none;
+    font-size: large;
+    color: blue;
+    letter-spacing: 1px;
+}
+.mainbox{
+    width: 85%;
+    margin-left: 4cm;
+    margin-right: 4cm;
+
+}
+.box{
+    width: 13%;
+    /*background: rgb(161, 15, 15);*/
+    padding-bottom: 4.5cm;
+    margin: 1cm 2cm 0cm 2cm;
+    border-radius: 20px;
+    float: left;  
+}
+#one{
+   background: red;
+}
+#two{
+    background: yellow;
+}
+#three{
+    background: black;
+}
+#four{
+    background: green;
+}
+#five{
+    background: blue;
+}
+#six{
+    background:purple;
 }
