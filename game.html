@@ -16,21 +16,39 @@
     </nav>
    
 
-    <h1> choose color according to your answer</h1>
+    <h1> Click on the question number and choose color according to your answer</h1>
 
     <div class="container">
-        <button id="play again">next question  </button>
-        <span class="status">let's go</span>
+        <!-- <button id="play again">next question  </button> -->
+        <span class="questions">Question: </span>
+        <button class="one">1</button>
+        <button class="two">2</button>
+        <button class="three">3</button>
+        <button class="four">4</button>
+        <button class="five">5</button>
+        <button class="six">6</button>
+        <button class="seven">7</button>
+        <button class="eight">8</button>
       <!--  <button id="easyb">easy</button>
         <button id="hardb">hard</button>-->
     </div>
-    <div class="mainbox">
-        <div class="box" id="one"></div>
-        <div class="box" id="two"></div>
-        <div class="box" id="three"></div>
-        <div class="box" id="four"></div>
-        <div class="box" id="five"></div>
-        <div class="box" id="six"></div>
+    <div class="main-answers">
+      <div class="mainbox">
+        <button class="box" id="one"></button>
+        <button class="box" id="two"></button>
+        <button class="box" id="three"></button> <br>
+        <button class="box" id="four"></button>
+        <button class="box" id="five"></button>
+        <button class="box" id="six"></button>
+    </div>
+    <div class="answers">
+      <p>Red; True/Yes</p> 
+      <p>Yellow; False/No</p> 
+      <p>Orange; I am not sure about that</p> 
+      <p>Green; I don't know/I have never heard of that</p> 
+      <p>Blue; That is debatable</p> 
+      <p>Purple;  I would like to explain something about it</p>
+    </div>
     </div>
     <script src="game.js"></script>
 </body>

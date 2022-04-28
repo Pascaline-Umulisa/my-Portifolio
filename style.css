@@ -42,7 +42,7 @@ a{
 }
 a button{
     font-size: x-large;
-    border-radius: 20%;
+    border-radius: 10px;
 }
 footer{
     text-align: center;
