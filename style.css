@@ -107,8 +107,9 @@ main{
 }
 
 .project h3{
+    color: white;
     text-align: center;
-    background-color: rgb(241, 201, 241);
+    background-color: rgb(88, 6, 88);
     padding: 3% 1%;
     font-size: 25px;
     border-radius: 5px;
@@ -127,8 +128,9 @@ main{
 }
 .project{
     /* border: solid 5px rgb(104, 219, 219); */
-    margin: 5%;
-    background-color: rgb(245, 229, 241);
+    margin: 3%;
+    padding: 1%;
+    background-color: rgb(214, 226, 226);
 }
 .contact{
     border: solid 5px rgb(104, 219, 219);
