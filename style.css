@@ -190,17 +190,17 @@ main{
     top: 0;
     font-size: 20px;
     padding: 5% 10%;
-    opacity: 0.9;
-    color: white;
+    opacity: 0.98;
+    color: rgb(66, 4, 61);
     width: 337px;
     height: 250px;
     visibility: hidden;
-    background-color: rgb(6, 14, 88);
+    background-color:rgb(89, 201, 201);
     transition: transform 500ms ease;
 }
  .project_content:hover .description{
     visibility: visible;
-    transform: scale(1.2);
+    transform: scale(1.1);
 
 }
 
