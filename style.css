@@ -80,6 +80,8 @@ main{
     margin-top: 10%;
     background-color: rgb(240, 212, 240);
     border: solid 2px purple;
+    transition: transform 500ms ease;
+
 }
 .download{
     height: 35px;
@@ -87,6 +89,11 @@ main{
     margin-left: 10%;
     background-color: rgb(240, 212, 240);
     border: solid 2px purple;
+    transition: transform 500ms ease;
+}
+.view:hover, .download:hover{
+    transform: scale(1.1);
+    background-color: white;
 }
 .me div{
     /* max-width: 30%; */
@@ -227,6 +234,9 @@ main{
     text-decoration: none;  
 
 }
+/* .project button:hover{
+    box-shadow: 1px 1px 10px green;
+} */
 a{
     text-decoration: none;  
 }
