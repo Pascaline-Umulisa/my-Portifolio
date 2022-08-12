@@ -47,9 +47,6 @@ header .myName{
 header img{
     margin: 1% 10%;
 }
-main{
-
-}
 .me h3{
     text-align: center;
     /* max-width: 50%; */
@@ -106,7 +103,7 @@ main{
 }
 .container{
     background-color: rgb(92, 40, 97);
-    padding: 3% 0%;
+    padding: 0.1% 0%;
 }
 .content{
     display: flex;
