@@ -18,6 +18,10 @@ body{
     background-color: white;
     border: solid 2px purple;
 }
+.nav button:hover{
+    background-color: rgb(226, 206, 226);
+}
+
    
 header{
     display: flex;
@@ -116,6 +120,7 @@ main{
     font-size: 18px;
     /* height: 40%; */
     border: solid 5px rgb(104, 219, 219);
+    /* text-align: center; */
 }
 .education h2{
     text-align: center;
@@ -127,11 +132,31 @@ main{
     color: rgb(73, 5, 73);
     font-size: 18px;
     background-color: white;
+    /* text-align: center; */
     /* height: 50%; */
     border: solid 5px rgb(104, 219, 219);
 }
 .about h2{
     text-align: center;
+}
+.contact{
+    border: solid 5px rgb(104, 219, 219);
+    margin: 2% 4% 2% 2%;
+    width: 20%;
+    padding: 1% 2%;
+    background-color: white;
+    
+}
+.contact p{
+    background-color: rgb(230, 221, 227);
+    font-size: 30px;
+    max-width: 98%;
+    padding: 3%;
+    border-radius: 5px;
+    /* margin-top: 10px; */
+}
+.contact p:hover{
+    background-color: rgb(201, 152, 201);
 }
 .skills{
     background-color: white;
@@ -216,14 +241,6 @@ main{
     height: 60%;
     margin-left: 1%;
 }
-.contact{
-    border: solid 5px rgb(104, 219, 219);
-    margin: 2% 4% 2% 2%;
-    width: 20%;
-    padding: 1% 2%;
-    background-color: white;
-    
-}
 .project button{
     height: 35px;
     width: 290px;
@@ -232,22 +249,17 @@ main{
     background-color: white;
     border: solid 2px purple;
     text-decoration: none;  
+    transition: background-color 800ms ease;
 
 }
-/* .project button:hover{
-    box-shadow: 1px 1px 10px green;
-} */
+.project button:hover{
+    background-color: rgb(88, 6, 88);
+    color: white;
+}
 a{
     text-decoration: none;  
 }
-.contact p{
-    background-color: rgb(230, 221, 227);
-    font-size: 30px;
-    max-width: 98%;
-    padding: 3%;
-    border-radius: 5px;
-    /* margin-top: 10px; */
-}
+
 footer{
     background-color: rgb(208, 235, 235);
     padding: 1% 10% 0 35%;
