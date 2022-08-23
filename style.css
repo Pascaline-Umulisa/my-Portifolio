@@ -259,7 +259,7 @@ header img{
     background-color: white;
     border: solid 2px purple;
     text-decoration: none;  
-    transition: background-color 800ms ease;
+    transition: background-color 200ms ease;
 
 }
 .project button:hover{
